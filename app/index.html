@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="css\main.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script type="text/javascript" src="http://yoursite.com/mapdata.js"></script>		
+        <script  type="text/javascript" src="http://yoursite.com/usmap.js"></script>
+        
+    </head>
+    <body >
+        
+        
+
+        <div class="layout-container">
+        
+            
+
+            <nav class="header">                
+                <div class="header-menu">
+                    <li class="header-li ">
+                        <a class="header-a" href="#">
+                            <div class="header-icon ">
+                                <!-- <img class="menu-img"src="img/doct.png" alt="settings"> -->
+                                <ion-icon class="menu-img dots-icon " name="ellipsis-horizontal-sharp"></ion-icon>
+                                
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class="header-li ">
+                        <a class="header-a" href="#" >
+                            <div class="header-icon">
+                                <!-- <img class="menu-img" src="img/folder.png" alt="settings"> -->
+                                <ion-icon class="menu-img header-button button-color" name="folder-open-outline"></ion-icon>
+
+                            </div>
+                        </a>
+                    </li>
+               
+                    <li class="header-li">
+                        <a class="header-a" href="#">
+                            <div class="header-icon">
+                                <!-- <img class="menu-img" src="img/3settings.png" alt="settings"> -->
+                                
+                                <ion-icon class="menu-img header-button button-color" name="options-outline"></ion-icon>
+                                
+                            </div>
+                        </a>
+                    </li>
+                    <div class="header-li-search">
+                        <li >
+                            <div class="search-container">
+                                <form action="#">
+                                    <input class="header-search header-icon" type="text" placeholder="Search Anything Here..." name="search">
+                                    <!-- <button type="submit"><i class="fa fa-search search-button "></i></button> -->
+                                </form>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div class="search-container">
+                                <button type="submit"><i class="fa fa-search search-button "></i></button>
+                            </div>
+                            
+                        </li>
+                    </div>
+                    <li class="header-li  left-shadow">
+                        <a class="header-a" href="#">
+                            <div class="header-icon">
+                                <!-- <img class="menu-img" src="img/Upload.png" alt="settings"> -->
+                                <ion-icon class="menu-img header-button button-color" name="cloud-upload-outline"></ion-icon>
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class="header-li">
+                        <a class="header-a" href="#" >
+                            <div class="header-icon">
+                                <!-- <img class="menu-img" src="img/Message.png" alt="settings"> -->
+                                <ion-icon class="menu-img header-button button-color" name="mail-outline"></ion-icon>
+                            </div>
+                        </a>
+                    </li>
+                   
+                    <li class="header-li">
+                        <a class="header-a" href="#" >
+                            <div class="header-icon">
+                                <!-- <img class="menu-img" src="img/Earth.png " alt="settings"> -->
+                                <ion-icon class="menu-img header-button button-color" name="earth-outline"></ion-icon>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="profile-div">
+                            <li class="header-picture">
+                                    <div class="header-profile">
+                                        <img class="menu-img header-picture" src="img/girl.jpg " alt="settings">
+                                    </div>
+                            </li>
+                            <li class="header-text">
+                                
+                                    
+                                <h1 class="header-name">kendall Jenner</h1>
+                                    
+                            
+                                <p class="header-profession">Cheif Authority</p>
+                            </li>
+                            <li class="">
+                                <ion-icon class="last-button" name="ellipsis-vertical"></ion-icon>
+                            </li>
+                        </div>
+                    </li>
+                </div>
+
+
+                <div class="secondary-menu">
+                    <li class="secondary-header-li">
+                        
+                    </li>
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">Daily Visitors</h6>
+                        <h4 class="secondary-header-h4">150,0000</h4>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </li>
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">Daily Customers</h6>
+                        <h4 class="secondary-header-h4">120,0000</h4>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </li>
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">Daily Orders</h6>
+                        <h4 class="secondary-header-h4">900,000</h4>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </li>
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">Daily Sales</h6>
+                        <h4 class="secondary-header-h4">850,000</h4>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </li>
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">Daily Shipments</h6>
+                        <h4 class="secondary-header-h4">750,000</h4>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </li>
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">Daily Revenue</h6>
+                        <h4 class="secondary-header-h4">$985,0000</h4>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </li>
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">Daily Reviews</h6>
+                        <h4 class="secondary-header-h4">600,000</h4>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </li>
+                   
+                    <li class="secondary-header-li">
+                        <h6 class="secondary-header-h6">+ Add Stactics</h6>
+                        
+                    </li>
+                  
+
+                </div>
+            </nav>
+
+            
+
+            <nav class="sidebar">
+                <header class="sidebar-header">
+                    <div class="image-text ">
+                        <span class="image">
+                            <img src="img/icon1.png" alt="logo">
+                        </span>
+                    </div>
+                    <i class='bx bxs-right-arrow bx-sm toggle'></i>
+                </header>
+                <div class="menu-bar">
+                    <div class="sidebar-menu">
+                        <ul class="menu-links ">
+                            <li class="nav-link">
+                                <a href="#" class="sidebar-a">
+                                    <ion-icon name="home-outline"class="sidebar-icon" ></ion-icon>
+                                    <span class="text nav-text">Home</span>                         
+                                </a>
+                            </li>
+                            <li class="nav-link ">
+                                <a href="#" class="sidebar-a">
+                                    <ion-icon name="bar-chart-outline"class="sidebar-icon" ></ion-icon>
+                                    <span class="text nav-text">Stactics</span>
+                                </a>
+                            </li>
+                            <li class="nav-link ">
+                                <a href="#" class="sidebar-a">
+                                    <ion-icon name="person-outline" class="sidebar-icon" ></ion-icon>
+                                    <span class="text nav-text">Users</span>
+                                </a>
+                            </li>
+                            <li class="nav-link ">
+                                <span class="sidebar-a">
+                                <a href="#" class="sidebar-a">
+                                    <ion-icon name="settings-outline" class="sidebar-icon"></ion-icon>
+                                    <span class="text nav-text">Settings</span>
+                                </a>
+                            </li>
+                            <li class="nav-link ">
+                                <a href="#" class="sidebar-a">
+                                    
+                                    <ion-icon name="information-circle-outline" class="sidebar-icon"></ion-icon>
+                                    <span class="text nav-text">Quires</span>
+                                </a>
+                            </li>
+                            <li class="nav-link ">
+                                <a href="#" class="sidebar-a">
+                                    
+                                    <ion-icon name="power-outline" class="sidebar-icon"></ion-icon>
+                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+             </nav>
+       
+       
+         <div >
+            <main>
+            </main>
+            <aside>
+                <div class="right-sidebar">
+                    <div class="right-sidebar-menu">
+                        <li class="right-sidebar-menu-li">
+                            <button class="right-sidebar-menu-button right-sidebar-menu-first-button" href="#">
+                                <ion-icon class="right-sidebar-menu-icon" name="people-outline"></ion-icon>
+                            </button>
+                            <i class='bx bxs-right-arrow right-sidebar-arrow'></i>
+                        </li>
+                        <li class="right-sidebar-menu-li">
+                            <button class="right-sidebar-menu-button" href="#">
+                                <ion-icon  class="right-sidebar-menu-icon" name="chatbox-ellipses-outline"></ion-icon>
+                            </button>
+                        </li>
+                        <li class="right-sidebar-menu-li">
+                            <button class="right-sidebar-menu-button" href="#">
+                                <ion-icon class="right-sidebar-menu-icon" name="heart-outline"></ion-icon>
+                            </button>
+                        </li>
+                    </div>
+
+                    <div class="right-sidebar-person-list">
+                        <li class="person-li">
+                            <li class="person-row person-shadow">
+                                <img src="img/Lawrance.png" width="50" height="50">
+                                <span class="person-text">
+                                    <h6 class="person-name">Jennifer Lawrence</h6>
+                                    <p class="person-proffesion">Cheif Authority</p>
+                                </span>
+                                
+                            </li>
+                            <span class="person-icon-allign">
+                                <ion-icon  class="person-icon" name="chatbox-ellipses-outline"></ion-icon>
+                            </span>
+                        </li>
+                        <li class="person-li">
+                            <li class="person-row person-shadow">
+                                <img src="img/Pitt.png" width="50" height="50">
+                                <span class="person-text">
+                                    <h6 class="person-name">Brad Pitt</h6>
+                                    <p class="person-proffesion">Cheif Authority</p>
+                                </span>
+                                
+                            </li>
+                            <span class="person-icon-allign">
+                                <ion-icon  class="person-icon" name="chatbox-ellipses-outline"></ion-icon>
+                            </span>
+                        </li>
+                        <li class="person-li">
+                            <li class="person-row person-shadow">
+                                <img src="img/Dicaprio.png" width="50" height="50">
+                                <span class="person-text">
+                                    <h6 class="person-name">Leonardo Dicaprio</h6>
+                                    <p class="person-proffesion">Cheif Authority</p>
+                                </span>
+                                
+                            </li>
+                            <span class="person-icon-allign">
+                                <ion-icon  class="person-icon" name="chatbox-ellipses-outline"></ion-icon>
+                            </span>
+                        </li>
+                        <li class="person-li">
+                            <li class="person-row person-shadow">
+                                <img src="img/Eisenberg.png" width="50" height="50">
+                                <span class="person-text">
+                                    <h6 class="person-name">Jesse Einsberg</h6>
+                                    <p class="person-proffesion">Cheif Authority</p>
+                                </span>
+                                
+                            </li>
+                            <span class="person-icon-allign">
+                                <ion-icon  class="person-icon" name="chatbox-ellipses-outline"></ion-icon>
+                            </span>
+                        </li>
+                        <li class="person-li">
+                            <li class="person-row person-shadow">
+                                <img src="img/Steward.png" width="50" height="50">
+                                <span class="person-text">
+                                    <h6 class="person-name">kristen Steward</h6>
+                                    <p class="person-proffesion">Cheif Authority</p>
+                                </span>
+                                
+                            </li>
+                            <span class="person-icon-allign">
+                                <ion-icon  class="person-icon" name="chatbox-ellipses-outline"></ion-icon>
+                            </span>
+                        </li>
+                        <li class="person-li">
+                            <li class="person-row">
+                                <img src="img/Affleck.png" width="50" height="50">
+                                <span class="person-text">
+                                    <h6 class="person-name">Ben Affleck</h6>
+                                    <p class="person-proffesion">Cheif Authority</p>
+                                </span>
+                                
+                            </li>
+                            <span class="person-icon-allign">
+                                <ion-icon  class="person-icon" name="chatbox-ellipses-outline"></ion-icon>
+                            </span>
+                        </li>
+
+                        <li class="person-li">
+                            <div class="right-sidebar-search">
+                                <form action="#">
+                                    <input class="right-sidebar-search-settings" type="text" placeholder="Search People, Chats and Reviews" name="search">
+                                    <!-- <button type="submit"><i class="fa fa-search search-button "></i></button> -->
+                                </form>
+                                <div class="right-search-button">
+                                    <button type="submit"><i class="fa fa-search search-button rotate"></i></button>
+                                    <button type="submit"><i class="bx bx-pencil search-button "></i></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="person-li">
+                            <h6 class="person-name">Featured Companys</h6>
+                            <div class="bottom-icon">
+                                <li class="bottom-icons-row">
+                                    <a class="bottom-icon-link" href="#">
+                                        <img class="bottom-icon-img" src="img/rBottom1.png" width="70" height="70" alt="">
+                                    </a>
+                                    <a class="bottom-icon-link" href="#">
+                                        <img class="bottom-icon-img" src="img/rBottom2.png" width="70" height="70" alt="">
+                                    </a>
+                                    <a class="bottom-icon-link" href="#">
+                                        <img class="bottom-icon-img" src="img/rBottom3.png" width="70" height="70" alt="">
+                                    </a>
+                                </li>
+                                <li class="bottom-icons-row">
+                                    <a class="bottom-icon-link" href="#">
+                                        <img class="bottom-icon-img" src="img/rBottom4.png" width="70" height="70" alt="">
+                                    </a>
+                                    <a class="bottom-icon-link" href="#">
+                                        <img class="bottom-icon-img" src="img/rBottom5.png" width="70" height="70" alt="">
+                                    </a>
+                                    <a class="bottom-icon-link" href="#">
+                                        <img class="bottom-icon-img" src="img/rBottom6.png" width="70" height="70" alt="">
+                                    </a>
+                                </li>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                    </div>
+                </div>
+            </aside>
+        
+             </div>
+        </div>
+
+        <div class="content-field">
+
+            <li class="charts-block-li">
+                <div class="charts-block-1">
+                    <h1 class="charts-type-1">Monthly Revenue Progress</h1>
+                        <span class="charts-period-position">
+                            <button class="charts-period-button charts-period-first-button">
+                                <h1 class="charts-period white">Month</h1>
+                            </button>
+                            <button class="charts-period-button">
+                                <h1 class="charts-period">Day</h1>
+                            </button>
+                            <button class="charts-period-button">
+                                <h1 class="charts-period">Year</h1>
+                            </button>
+                            <button class="charts-period-button">
+                                <ion-icon class="charts-period-menu-button" name="ellipsis-vertical"></ion-icon>
+                            </button>
+                        </span>
+                        <div  class="chartBox-1">
+                            <canvas class="chart-size-options" id="myChart"></canvas>
+                        </div>
+                        <div class="chart-y">
+                            <li class="chart-y-li">
+                                <h1 class="chart-y-text">
+                                    400k
+                                </h1>
+                            </li>
+                            <li class="chart-y-li">
+                                <h1 class="chart-y-text">
+                                    300k
+                                </h1>
+                            </li>
+                            <li class="chart-y-li">
+                                <h1 class="chart-y-text">
+                                    200k
+                                </h1>
+                            </li>
+                            <li class="chart-y-li">
+                                <h1 class="chart-y-text">
+                                    100k
+                                </h1>
+                            </li>
+
+                            <div class="chart-x">
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Jan
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Feb
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Mar
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Apr
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        May
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Jun
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Jul
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Aug
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Sep
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Oct
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Nov
+                                    </h1>
+                                </li>
+                                <li class="chart-x-li">
+                                    <h1 class="chart-x-text">
+                                        Dec
+                                    </h1>
+                                </li>
+                        </div>
+                </div>
+            </li>
+
+            <li class="charts-block-li">
+                <div class="charts-block-2">
+                    <h1 class="charts-type-2">Revenue Per Hour</h1>
+                    <div class="skill">
+                        <div class="outer">
+                            <div class="chart-inner">
+                                <div id="chart-number">
+                                    $150
+                                </div>
+                            </div>
+                        </div>
+                        <svg class="svg1" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                               <linearGradient id="GradientColor">
+                                  <stop offset="0%" stop-color="rgb(177, 113, 223)" />
+                                  <stop offset="100%" stop-color="rgb(113, 93, 184)" />
+                               </linearGradient>
+                            </defs>
+                            <circle class="circle1" cx="73" cy="82" r="65" stroke-linecap="round" />
+                        </svg>
+                        <svg class="svg2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                               <linearGradient id="silver">
+                                  <stop offset="0%" stop-color="rgb(230, 230, 230)" />
+                                  <stop offset="100%" stop-color="rgb(230, 230, 230)" />
+                               </linearGradient>
+                            </defs>
+                            <circle class="circle2" cx="73" cy="82" r="65" stroke-linecap="round" />
+                        </svg>
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="charts-block-li">
+                <div class="charts-block-3">
+                    <div class="first-person-feed">
+                        <h1 class="charts-type-3">
+                            Customers Feed
+                        </h1>
+                        <img class="feed-img" src="img/Turner.png" height="50px" width="50px">
+                        <h1 class="activity">
+                            10 Min Ago
+                        </h1>
+                        <div class="message-block">
+                            <h1 class="feed-text">
+                                <span  class="feed-person">Sophie Turner</span>
+
+                                is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been 
+                                the industry's standard dummy text ever since the 1500s, 
+                                when an
+                            </h1>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="message-block-2">
+                            <h1 class="feed-text">
+                                <span  class="feed-person">Sophie Turner</span>
+
+                                is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been 
+                                the industry's standard dummy text ever since the 1500s
+                            </h1>
+                        </div>
+                        <div class="message-block-2">
+                            <h1 class="feed-text">
+                                <span  class="feed-person">Sophie Turner</span>
+
+                                is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been 
+                                the industry's standard dummy text ever since the 1500s
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="second-person-feed">
+                        <img class="feed-img-2" src="img/Quill.png" width="50px" height="50px">
+                        <h1 class="activity">
+                            15 Min Ago
+                        </h1>
+                        <div class="message-block">
+                            <h1 class="feed-text">
+                                <span  class="feed-person">Peter Quitt</span>
+
+                                is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been 
+                                the industry's standard dummy text ever since the 1500s, 
+                                when an
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="charts-block-4"> 
+                    <h1 class="charts-type-4">
+                        Todays Task
+                    </h1>
+                       
+                        <div class="list-element">
+                            <h1 class="choise-text">simply dummy text of the printing......</h1>
+                            <span class="bold-clock">
+                                <i class='bx bx-time clock-position'></i>
+                            </span>  
+                            <h1 class="task-time">12:24 AM</h1>                          
+                            <span class="pos">
+                                <label class="choice-container"><span class="choise-color-text">Arrange</span>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </span>
+                        </div>
+                        <div class="list-element inner-background">
+                            <h1 class="choise-text">printing simply dummy text of the  and......</h1>
+                            <span class="bold-clock">
+                                <i class='bx bx-time clock-position'></i>
+                            </span>  
+                            <h1 class="task-time">1:10 AM</h1>                          
+                            <span class="pos">
+                                <label class="choice-container"><span class="choise-color-text">Shipment</span>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </span>
+                        </div>
+                        <div class="list-element">
+                            <h1 class="choise-text">text simply of the printing and......</h1>
+                            <span class="bold-clock">
+                                <i class='bx bx-time clock-position'></i>
+                            </span>  
+                            <h1 class="task-time">1:24 AM</h1>                          
+                            <span class="pos">
+                                <label class="choice-container"><span class="choise-color-text">Make List</span>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </span>
+                        </div>
+                        <div class="list-element inner-background bottom-border">
+                            <h1 class="choise-text">dummy simply text of printing and......</h1>
+                            <span class="bold-clock">
+                                <i class='bx bx-time clock-position'></i>
+                            </span>  
+                            <h1 class="task-time">1:30 AM</h1>                          
+                            <span class="pos">
+                                <label class="choice-container"><span class="choise-color-text">Review</span>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </span>
+                        </div>
+                </div>
+
+                <div class="charts-block-5">
+                    <h1 class="charts-type-5">Progress</h1>
+                    
+                    <!-- <span class="test"><img src="img/zyro-image.png" width="180px"></span> -->
+                    
+
+
+
+                    <div class="chartCard">
+                        <div class="chartBox">
+                          <canvas id="myChart1"></canvas>
+                        </div>
+                      </div>
+                    
+                    
+                    
+                    <div class="charts-div">
+                        <li class="progress-chart-li">
+                            <div class="chart-back-1"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-back-2"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-back-3"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-back-4"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-back-5"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-back-6"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-back-7"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-back-8"></div>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-1"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-2"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-3"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-4"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-5"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-6"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-7"></div>
+                        </li>
+                        <li class="progress-chart-li">
+                            <div class="chart-front-8"></div>
+                        </li>
+                    </div>
+                    <h1 class="block-5-text">
+                        $150,0000
+                        
+                    </h1>    
+                    <div class="progress-bottom-text">
+                        <p class="secondary-header-p">
+                            <ion-icon class="triangle-color" name="triangle-sharp"></ion-icon>
+                            1020
+                            <ion-icon class="triangle-second-color triangle-rotate"name="triangle-sharp"></ion-icon> 
+                            1040
+                        </p>  
+                    </div>    
+                   
+                </div>
+
+
+
+                <div class="charts-block-6">
+                    <h1 class="charts-type-5">Shipments</h1>
+                    <div class="map-position" id="map"></div>
+                    <a href="#"><i class='bx bxs-map bx-sm pointer-pos1'></i></a>
+                    <a href="#"><i class='bx bxs-map bx-sm pointer-pos2'></i></a>
+                    <a href="#"><i class='bx bxs-map bx-sm pointer-pos3'></i></a>
+                    <a href="#"><i class='bx bxs-map bx-sm pointer-pos4'></i></a>
+                    <a href="#"><i class='bx bxs-map bx-sm pointer-pos5'></i></a>
+                    <a href="#"><i class='bx bxs-map bx-sm pointer-pos6'></i></a>
+                    <a href="#"><i class='bx bxs-map bx-sm pointer-pos7'></i></a>
+                </div>
+            </li>
+            
+        </div>
+      
+
+        
+       
+        <!-- Must be here -->
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="js/mapdata.js"></script>
+        <script src="js/usmap.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/app2.js"></script>
+    </body>
+</html>
